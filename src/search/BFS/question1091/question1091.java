@@ -7,3 +7,7 @@ public class question1091 {
         System.out.println(solution.shortestPathBinaryMatrix(arr));
     }
 }
+
+
+// https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/solution/bfsa-qi-fa-sou-suo-duo-chong-fang-fa-you-jrqp/
+// 上面这个题解很好
