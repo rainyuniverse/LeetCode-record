@@ -13,7 +13,7 @@ class Solution1 {
         return res;
     }
 
-    public int dfs(int i, int j, int[][] grid){
+    private int dfs(int i, int j, int[][] grid){
         //如果碰到非岛屿的状况，则直接返回0
         if(i < 0 || j < 0 || i >= grid.length || j >= grid[0].length || grid[i][j] == 0){
             return 0;
