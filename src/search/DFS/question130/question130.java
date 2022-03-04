@@ -14,7 +14,9 @@ public class question130 {
                 {'O', 'X', 'O', 'X', 'O', 'X'}
         };
         Solution solution = new Solution();
-        solution.solve(board);
+//        solution.solve(board);
+        Solution1 solution1 = new Solution1();
+        solution1.solve(board);
         for(int i = 0; i < board.length; i++){
             for(int j = 0; j < board[0].length; j++){
                 System.out.print(board[i][j]);
