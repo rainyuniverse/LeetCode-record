@@ -14,6 +14,8 @@ public class question79 {
 //        };
         String word = "ABCB";
         Solution solution = new Solution();
-        System.out.println(solution.exist(board, word));
+//        System.out.println(solution.exist(board, word));
+        Solution1 solution1 = new Solution1();
+        System.out.println(solution1.exist(board, word));
     }
 }
