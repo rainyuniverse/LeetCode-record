@@ -31,6 +31,11 @@ class Solution {
              * 这里将visited[i - 1] == false改为visited[i - 1] == true同样也能通过 但保留的是倒序索引
              * 意思是，假如出现重复的情况，先将重复的数字添加到排列的末尾，然后再按照倒序的顺序向前添加重复数字
              * 而visited[i - 1] == false保留的是正序索引，执行用时大大降低
+             *
+             * 有一种另外的理解方法
+             * visited[i - 1] == false是在树层上去重，visited[i - 1] == true是在树枝上去重
+             * 前一种情况是在递归中，后一种情况是在for循环中
+             * 树层上去重的效果会更好
              */
             if(i > 0 && nums[i] == nums[i - 1] && visited[i - 1] == false){
                 continue;
