@@ -18,6 +18,8 @@ class Solution {
             //要先进行拷贝再放进去 否则的话地址中存储的内容不断变化 最终存进res值也会发生变化
             return;
         }
+        //for循环在某种程度上也能防止重复遍历 和visited访问矩阵起到一样的效果
+        //比如[1,2,3]在回退到[1]之后 此时i对应的值为2 下一个遍历的数字是3 即下一种情况为[1,3,2]
         for(int i = 0; i < nums.length; i++){
             if(visited[i] == 1){
                 continue;
