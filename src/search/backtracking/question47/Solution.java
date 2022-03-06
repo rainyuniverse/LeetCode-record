@@ -2,6 +2,8 @@ package search.backtracking.question47;
 
 import java.util.*;
 //回溯法
+//https://leetcode-cn.com/problems/permutations-ii/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liwe-2/
+//上述题解写的很好
 class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
