@@ -37,6 +37,9 @@ class Solution {
              * 前一种情况是在递归中，后一种情况是在for循环中
              * 树层上去重的效果会更好
              */
+//            if(i > 0 && nums[i] == nums[i - 1] && visited[i - 1] == true){
+//                continue;
+//            }
             if(i > 0 && nums[i] == nums[i - 1] && visited[i - 1] == false){
                 continue;
             }
