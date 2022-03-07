@@ -18,7 +18,7 @@ class Solution1 {
 
     private void backtracking(int[] nums, int index, List<List<Integer>> res, List<Integer> curNum){
         res.add(new ArrayList<>(curNum));
-
+        //for循环结束后直接退出当前递归
         for(; index < nums.length; index++){
             curNum.add(nums[index]);
             backtracking(nums, index + 1, res, curNum);
