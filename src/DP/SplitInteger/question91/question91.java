@@ -2,7 +2,7 @@ package DP.SplitInteger.question91;
 
 public class question91 {
     public static void main(String[] args) {
-        String s = "230";
+        String s = "010";
         Solution solution = new Solution();
 //        System.out.println(solution.numDecodings(s));
 
