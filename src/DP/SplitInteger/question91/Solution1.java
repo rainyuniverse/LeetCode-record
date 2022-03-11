@@ -21,6 +21,7 @@ class Solution1 {
             }
             //第二种情况
             int res2 = 0;
+            //((s.charAt(i - 2) - '0') * 10 + (s.charAt(i - 1) - '0') <= 26操作较快
             if(i > 1 && s.charAt(i - 2) != '0' && ((s.charAt(i - 2) - '0') * 10 + (s.charAt(i - 1) - '0') <= 26)){
                 res2 = dp[i - 2];
             }
