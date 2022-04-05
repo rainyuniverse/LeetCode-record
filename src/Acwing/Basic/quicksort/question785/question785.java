@@ -28,12 +28,14 @@ public class question785 {
 
         while(i < j){
             do{
+                // 上一次交换之后 不需要再判断交换的那个数 需要判断下一位的那个数
                 i++;
             }while(arr[i] < x);
             do{
                 j--;
             }while (arr[j] > x);
 
+            // 可能出现左指针已经在右指针右边的情况，此时不需要交换
             if(i < j){
                 int temp = arr[i];
                 arr[i] = arr[j];
