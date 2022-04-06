@@ -1,7 +1,7 @@
 package Acwing.Basic.binarysearch.question789;
 
 import java.util.Scanner;
-
+// 二分 模板题
 public class question789 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
