@@ -1,7 +1,6 @@
 package Tree.HierarchicalTraversal.question637;
 
 import Tree.TreeNode;
-import jdk.jfr.internal.instrument.ThrowableTracer;
 
 import java.util.List;
 
